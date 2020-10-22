@@ -138,7 +138,19 @@ void printSudoku()
 
 
 int main()
-{
+{ 
+  /* input format   
+    .45...63.
+    2...1...5
+    9..8.5..7
+    ..9...3..
+    .3.....7.
+    ..8...5..
+    8..5.3..1   
+    5...2...3
+    .26...95.
+  */
+
     string s;
     vector<char> row;
     for (int i = 0; i < 9; i ++)
